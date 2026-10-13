@@ -1,0 +1,16 @@
+[project]
+name = "melbourne"
+version = "0.1.0"
+requires-python = ">=3.11"
+dependencies = [
+    "flet",
+]
+
+[tool.flet]
+product = "Melbourne"
+org = "com.flaza"
+build_number = 1
+build_version = "0.1.0"
+
+[tool.flet.android.permission]
+"android.permission.INTERNET" = true
